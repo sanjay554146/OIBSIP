@@ -1,0 +1,247 @@
+body{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.logo{
+    width:120px;
+    color:white;
+    align-self: center;
+    text-align: center;
+    margin-left: 150px;
+}
+.navbar{
+    display:flex;
+    margin-top: 0px;
+    height:100px;
+    background-color: black;
+    font-style: bold;
+    color:white;
+
+}
+.homeul{
+    margin-left: 400px;
+    margin-top: 35px;
+}
+.homelist{
+    font-size: 30px;
+    font-style: bold;
+    color:white;
+    display:inline;
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+    margin-right: 50px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.images{
+    height:530px;
+    display:flex;
+}
+.imagesdiv{
+    height:100%;
+    width:34%;
+}
+.hotelimage1{
+    background-image: url("hotelimages2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 1000px 300px;
+    background-size: cover;*/
+    height:100%;
+    width:100%; 
+}
+.hotelimage2{
+    background-image: url("hotelimages1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-repeat: no-repeat;
+    background-size: 1000px 300px; */
+    /* background-size: cover;*/
+    height:100%;
+    width:100%;
+}
+.hotelimage3{
+    background-image: url("hotelsimage3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 1000px 300px; */
+    /* background-size: cover; */
+    height:100%;
+    width:100%; 
+}
+.rooms{
+    height:100px;
+    display:flex;
+    background-color:whitesmoke;
+    align-items: center;
+    /* align-content: center; */
+    justify-content: center;
+}
+.roomsinner{
+    background-color: rgb(230, 193, 145);
+    height:75px;
+    width:500px;
+    font-size: 30px;
+    font-style: bold;
+    border-radius: 10px;
+    text-align: center;
+    /* align-content:center;*/
+    justify-content: center; */
+    padding-bottom: 10px;
+}
+.roomtypes{
+    height:450px;
+    background-color: azure;
+}
+.roomsul{
+    margin-top: 0px;
+    height:50px;
+    padding-top: 15px;
+}
+.roomsli{
+    font-size: 50px;
+    font-style: bold;
+    color:black;
+    display:inline;
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+    margin-right: 50px;
+    margin-left:250px;
+}
+.roomphoto{
+    height:330px;
+    width:400px;
+    /* background-color: red; */
+    margin-left: 220px;
+}
+.deluxe{
+    background-image: url(deluxeroom.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-repeat: no-repeat;
+    background-size: 1000px 300px; */
+    /* background-size: cover;*/
+    height:100%;
+    width:100%;
+}
+.family{
+    background-image: url(familyhotelrooms.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-repeat: no-repeat;
+    background-size: 1000px 300px; */
+    /* background-size: cover;*/
+    height:100%;
+    width:100%;
+} 
+.services{
+    height:100px;
+    display:flex;
+    background-color:rgb(219, 210, 200);
+    align-items: center;
+    /* align-content: center; */
+    justify-content: center;
+}
+.servicesinner{
+    background-color: rgb(193, 138, 68);;
+    height:75px;
+    width:500px;
+    font-size: 30px;
+    font-style: bold;
+    border-radius: 10px;
+    text-align: center;
+    /* align-content:center;*/
+    justify-content: center; */
+    padding-bottom: 10px;
+}
+.servicestypes{
+    height:470px;
+    background-color: azure;
+    margin-bottom: 0px;
+}
+.servicesul{
+    margin-top: 0px;
+    height:50px;
+    padding-top: 15px;
+}
+.servicesli{
+    font-size: 50px;
+    font-style: bold;
+    color:black;
+    display:inline;
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+    margin-right: 130px;
+    margin-left:90px;
+}
+.sedetailul{
+    margin-top: 0px;
+    height:30px;
+    padding-top: 15px;
+}
+.sedetailli{
+    font-size: 23px;
+    font-style: bold;
+    color:black;
+    display:inline; 
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+    margin-right: 70px;
+    margin-left:5px;
+}
+.servicephoto{
+        height:300px;
+        width:300px;
+        margin-left: 130px;
+}
+.spa{
+    background-image: url(spa.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100%;
+    width:100%;
+}
+.dining{
+    background-image: url(dining.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100%;
+    width:100%;
+} 
+.event{
+    background-image: url(event.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100%;
+    width:100%;
+} 
+.contactbackground{
+    margin-top: 0px;
+    background-color: antiquewhite;
+    height:200px;
+    text-align: center;
+    padding-top:0px;
+}
+.foot{
+    height:50px;
+    background-color: rgb(14, 11, 11);
+    color:white;
+    text-align: center;
+    padding-top: 2px;
+}
+
